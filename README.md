@@ -10,9 +10,10 @@ Learn a concept by reasoning it out yourself. The agent guides you with Socratic
 - Surfaces contradictions instead of saying "wrong", and checks real understanding with follow-up variants.
 - Gives hints after you get stuck, and explains directly after repeated attempts — no withholding for its own sake.
 - Switches to plain explanation whenever you say "just tell me".
+- Feynman check: explain a concept in your own words as if to a layperson; the agent points out gaps and asks you to re-explain.
 - Optionally updates a topic map (`topics/<topic>/map.md`) with what you've mastered.
 
-Triggers on phrases like "quiz me", "do I understand this right", "don't just tell me", or invoke it with `$help-me-learn`.
+Triggers on phrases like "quiz me", "do I understand this right", "don't just tell me", "let me explain it back", or invoke it with `$help-me-learn`.
 
 ## Install
 
